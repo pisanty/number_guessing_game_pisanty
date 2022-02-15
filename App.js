@@ -36,10 +36,10 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: 30}}>{text}</Text>
+      <Text style={{fontSize: 25}}>{text}</Text>
       <TextInput
         keyboardType='numeric'
-        style={{fontSize: 25, width: 45, borderColor: 'black', backgroundColor: 'orange', borderWidth:2, margin: 2}}
+        style={{fontSize: 20, width: 45, borderColor: 'black', backgroundColor: 'orange', borderWidth:2, margin: 2, justifyContent: 'space-evenly'}}
         onChangeText={guess => setGuess(guess)}
         value={guess}/>
       
